@@ -5,7 +5,7 @@ framewidth = 640
 frameheight = 480
 nplateCascade = cv2.CascadeClassifier("haarcascade_license_plate_rus_16stages.xml")
 ################################################################
-cap = cv2.VideoCapture("vid2.mp4")
+cap = cv2.VideoCapture("vid1.mp4")
 cap.set(3, framewidth)
 cap.set(4, frameheight)
 cap.set(10, 150)
